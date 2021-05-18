@@ -1,4 +1,4 @@
-package com.example.test.dfs;
+package com.example.test.dfsAndbfs;
 
 public class Solution {
     public int solution(int[] numbers, int target) {
@@ -7,6 +7,9 @@ public class Solution {
     }
 
     public static void main(String[] args){
+        int[] numbers = {1, 1, 1, 1, 1};
+        int target  = 5;
+
 
     }
 }
