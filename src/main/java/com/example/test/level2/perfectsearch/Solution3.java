@@ -1,6 +1,6 @@
-package com.example.test.select.carpet;
+package com.example.test.level2.perfectsearch;
 
-public class Solution {
+public class Solution3 {
     public int[] solution(int brown, int yellow) throws Exception {
         if (brown < 8 || brown > 5000)
             throw new Exception("갈색 격자의 수 brown은 8 이상 5,000 이하인 자연수입니다.");
@@ -56,7 +56,7 @@ public class Solution {
         int yellow  = 3;
 
         try {
-            int[] ints = new Solution().solution(brown, yellow);
+            int[] ints = new Solution3().solution(brown, yellow);
             System.out.println(ints[0]+", "+ints[1]);
         } catch (Exception e) {
             e.printStackTrace();

@@ -1,4 +1,4 @@
-package com.example.test.select.sosu;
+package com.example.test.level2.perfectsearch;
 
 import java.util.HashSet;
 
@@ -52,7 +52,7 @@ public class Solution {
     }
 
     public static void main(String[] args){
-        String numbers  = "15";
+        String numbers  = "17";
         int count   = new Solution().solution(numbers);
         System.out.println(count);
     }

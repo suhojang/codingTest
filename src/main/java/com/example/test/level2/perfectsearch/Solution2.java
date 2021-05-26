@@ -1,4 +1,4 @@
-package com.example.test.select.carpet;
+package com.example.test.level2.perfectsearch;
 
 public class Solution2 {
     public int[] solution(int brown, int red) {
@@ -27,7 +27,7 @@ public class Solution2 {
         int yellow  = 2;
 
         try {
-            int[] ints = new Solution().solution(brown, yellow);
+            int[] ints = new Solution3().solution(brown, yellow);
             System.out.println(ints[0]+", "+ints[1]);
         } catch (Exception e) {
             e.printStackTrace();
